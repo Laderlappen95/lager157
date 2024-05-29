@@ -28,15 +28,17 @@ header h1{
     left: 1rem;
     border: 0.1rem solid grey;
     border-radius: 0.4rem; 
-    margin-left:10rem;
+    margin-left:12rem;
+    
 }
 
-#topMenuButton{
+#topMenuButton {
     float: left;
     padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     text-decoration: none;
     color: black;
-}
+    border-radius: 0.4rem;
+  }
   
 a:hover#topMenuButton{
     background-color: grey;
@@ -49,6 +51,13 @@ a:hover#topMenuButton{
 .mainHeader nav:hover ul {
     display: inline-block;
 }
+
+header nav ul li a {
+    display: block;
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+  }
 
  
  

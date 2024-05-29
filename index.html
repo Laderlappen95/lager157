@@ -5,14 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/styleSheet.css">
 <link rel="stylesheet" href="/css/gridSheet.css">
+
+<!--pwa settings-->
+<link rel="manifest" href="manifest.json?v=1.2">
+<meta name="theme-color" content="#000000">
+<meta name="mobile-web-app-capable"  content="yes">
+
+<link rel="icon" href="favicon.ico">
+<link rel="icon" sizes="192x192" href="icons/icon-192x192.png">
+
 </head>
 <body>
-<header>
+<header class="mainHeader">
 <h1>LAGER157</h1>
+    <nav id="headerNav">
+    <a id="topMenuButton" href="index.html">☰</a>
+    <ul>
+        <li><a href="#tjejer">Tjejer</a></li>
+        <li><a href="#killar">Killar</a></li>
+        <li><a href="">Moderkort</a></li>
+        <li><a href="./pages/killar.html">SSD</a></li>
+        <li><a href="#about">Om</a></li>
+    </ul>
+</nav>
 <a href="pages/killar.html"><img src="images/shopping-bagpng.webp" alt="inkorg" width="20px"></a>
 <a href="pages/killar.html"><img src="images/profileIcon.png" alt="profil" width="20px"></a>
 </header>
-<script src="js/header.js"></script>
+
 <main>
     <div class="col-12">
         <!-- IMAGE-->
